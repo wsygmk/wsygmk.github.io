@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff9088;
+  background: #fff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2302,11 +2302,4 @@ embed {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-body {
-  background: url("https://i0.hdslb.com/bfs/article/d1cf28e7b24f54b5238915bc3bc62aea93530590.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%;
 }
