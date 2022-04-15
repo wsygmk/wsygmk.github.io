@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #f1ff78;
+  background: #9cffff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2304,7 +2304,7 @@ embed {
   white-space: nowrap;
 }
 body {
-  background: url("https://seopic.699pic.com/photo/50086/2215.jpg_wh1200.jpg");
+  background: url("images/bk.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
