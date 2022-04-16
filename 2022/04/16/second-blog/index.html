@@ -20,12 +20,12 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false,"scrollpercent":true},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="数据结构学习1,动态数组1,一维数组12345678910111213141516#include&lt;stdio.h&gt;int main()&amp;#123;	int arr[10] &#x3D; &amp;#123; 0 &amp;#125;;	int* pArr &#x3D; arr;	for (int i &#x3D; 0; i &lt; 10; i++)	&amp;#123;		arr[i] &#x3D; i + 1;	&amp;#125;	for (int">
+  <meta name="description" content="数据结构学习">
 <meta property="og:type" content="article">
 <meta property="og:title" content="second blog">
 <meta property="og:url" content="http://example.com/2022/04/16/second-blog/index.html">
 <meta property="og:site_name" content="WSYGMK&#39;BLOG">
-<meta property="og:description" content="数据结构学习1,动态数组1,一维数组12345678910111213141516#include&lt;stdio.h&gt;int main()&amp;#123;	int arr[10] &#x3D; &amp;#123; 0 &amp;#125;;	int* pArr &#x3D; arr;	for (int i &#x3D; 0; i &lt; 10; i++)	&amp;#123;		arr[i] &#x3D; i + 1;	&amp;#125;	for (int">
+<meta property="og:description" content="数据结构学习">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="c:/Users/daili/Desktop/CSDN笔记/数据结构图示/冒泡排序.png">
 <meta property="og:image" content="c:/Users/daili/Desktop/CSDN笔记/数据结构图示/选择排序.png">
@@ -35,7 +35,7 @@
 <meta property="og:image" content="c:/Users/daili/Desktop/CSDN笔记/数据结构图示/基数排序.png">
 <meta property="og:image" content="c:/Users/daili/Desktop/CSDN笔记/数据结构图示/快速排序.png">
 <meta property="article:published_time" content="2022-04-16T12:11:45.000Z">
-<meta property="article:modified_time" content="2022-04-16T12:13:46.303Z">
+<meta property="article:modified_time" content="2022-04-16T12:19:35.884Z">
 <meta property="article:author" content="陌客">
 <meta property="article:tag" content="数据结构">
 <meta name="twitter:card" content="summary">
@@ -246,7 +246,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-04-16 20:11:45 / 修改时间：20:13:46" itemprop="dateCreated datePublished" datetime="2022-04-16T20:11:45+08:00">2022-04-16</time>
+              <time title="创建时间：2022-04-16 20:11:45 / 修改时间：20:19:35" itemprop="dateCreated datePublished" datetime="2022-04-16T20:11:45+08:00">2022-04-16</time>
             </span>
 
           
@@ -260,7 +260,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="数据结构学习"><a href="#数据结构学习" class="headerlink" title="数据结构学习"></a>数据结构学习</h2><h3 id="1-动态数组"><a href="#1-动态数组" class="headerlink" title="1,动态数组"></a>1,动态数组</h3><h4 id="1-一维数组"><a href="#1-一维数组" class="headerlink" title="1,一维数组"></a>1,一维数组</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> arr[<span class="number">10</span>] = &#123; <span class="number">0</span> &#125;;</span><br><span class="line">	<span class="type">int</span>* pArr = arr;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		arr[i] = i + <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="comment">//printf(&quot;%d &quot;, arr[i]);</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d &quot;</span>, *arr + i);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        <h2 id="数据结构学习"><a href="#数据结构学习" class="headerlink" title="数据结构学习"></a>数据结构学习</h2><span id="more"></span>
+
+<h3 id="1-动态数组"><a href="#1-动态数组" class="headerlink" title="1,动态数组"></a>1,动态数组</h3><h4 id="1-一维数组"><a href="#1-一维数组" class="headerlink" title="1,一维数组"></a>1,一维数组</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> arr[<span class="number">10</span>] = &#123; <span class="number">0</span> &#125;;</span><br><span class="line">	<span class="type">int</span>* pArr = arr;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		arr[i] = i + <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="comment">//printf(&quot;%d &quot;, arr[i]);</span></span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d &quot;</span>, *arr + i);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h4 id="2-二维数组"><a href="#2-二维数组" class="headerlink" title="2,二维数组"></a>2,二维数组</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> arr[<span class="number">5</span>][<span class="number">5</span>] =</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="number">1</span>,<span class="number">2</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,</span><br><span class="line">		<span class="number">1</span>,<span class="number">2</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,</span><br><span class="line">		<span class="number">1</span>,<span class="number">2</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,</span><br><span class="line">		<span class="number">1</span>,<span class="number">2</span>,<span class="number">4</span>,<span class="number">9</span>,<span class="number">6</span>,</span><br><span class="line">		<span class="number">1</span>,<span class="number">2</span>,<span class="number">4</span>,<span class="number">7</span>,<span class="number">6</span></span><br><span class="line">	&#125;;</span><br><span class="line">	<span class="type">int</span>* pArr = (<span class="type">int</span> *)arr;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">25</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d &quot;</span>, *(pArr+i));</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, arr[<span class="number">3</span>][<span class="number">4</span>]);<span class="comment">//第四行第五列</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot; %d&quot;</span>, *(pArr + <span class="number">3</span> * <span class="number">5</span> + <span class="number">4</span>));<span class="comment">//第四行第五列</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
@@ -347,7 +349,6 @@
 
 
 
-<span id="more"></span>
 
     </div>
 
@@ -470,7 +471,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
