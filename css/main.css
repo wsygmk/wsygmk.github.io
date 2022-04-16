@@ -1169,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #09f2ff;
+  background: #b0ff7f;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2013,6 +2013,14 @@ pre .javascript .function {
 .use-motion .pagination,
 .use-motion .comments {
   opacity: 0;
+}
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+}
+.post-body p a:hover {
+  color: #0477ab;
+  text-decoration: underline;
 }
 .category-all-page .category-all-title {
   text-align: center;
